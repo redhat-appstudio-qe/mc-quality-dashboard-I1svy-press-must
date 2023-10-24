@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-jmj6
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-xcvj-tenant/mc-quality-dashboard/frontend-quality-dashboard-jmj6@sha256:6b0a6207a9f3f48fa7d90f0e82161715792b5744e8bcc87d50a720cd9efd4427
+        name: quality-frontend-dashboard
+        resources: {}
+status: {}
